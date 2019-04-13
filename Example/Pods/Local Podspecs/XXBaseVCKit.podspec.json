@@ -1,0 +1,22 @@
+{
+  "name": "XXBaseVCKit",
+  "version": "0.1.0",
+  "summary": "A short description of XXBaseVCKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cheATSlark/XXBaseVCKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cheATSlark": "jruijqx@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cheATSlark/XXBaseVCKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XXBaseVCKit/Classes/**/*"
+}

@@ -7,6 +7,7 @@
 //
 
 #import "XXViewController.h"
+#import <UIAlertView+ExtraXX.h>
 
 @interface XXViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [UIAlertView showAlertWithMessage:@"hello"];
 }
 
 - (void)didReceiveMemoryWarning

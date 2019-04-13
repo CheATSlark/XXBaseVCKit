@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XXBaseVCKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XXBaseVCKit.'
+  s.summary          = 'the base ViewController and Category of Project XX.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  as the base part  of the XX Project,To release assemble
                        DESC
 
-  s.homepage         = 'https://github.com/cheATSlark/XXBaseVCKit'
+  s.homepage         = 'https://github.com/CheATSlark/XXBaseVCKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cheATSlark' => 'jruijqx@163.com' }
-  s.source           = { :git => 'https://github.com/cheATSlark/XXBaseVCKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CheATSlark/XXBaseVCKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XXBaseVCKit/Classes/**/*'
+  s.source_files = 'XXBaseVCKit/Classes/*{h,m}'
   
   # s.resource_bundles = {
   #   'XXBaseVCKit' => ['XXBaseVCKit/Assets/*.png']

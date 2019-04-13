@@ -1,0 +1,16 @@
+PODS:
+  - XXBaseVCKit (0.1.0)
+
+DEPENDENCIES:
+  - XXBaseVCKit (from `../`)
+
+EXTERNAL SOURCES:
+  XXBaseVCKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XXBaseVCKit: 6845dc78eb8ed8d19cda457fb573c4c789c72965
+
+PODFILE CHECKSUM: 6d97d23aae55b38b53a50236e06bfb342909b5fe
+
+COCOAPODS: 1.7.0.beta.3
