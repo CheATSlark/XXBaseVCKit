@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XXBaseVCKit_Example' do
+  pod 'XXBaseVCKit', :path => '../'
+
+  target 'XXBaseVCKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
