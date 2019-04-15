@@ -23,4 +23,8 @@
 
 - (NSString *)VerticalString;
 
++(NSString *)iPhoneTypeString;
+
++(uint64_t)sysTimeInMilliseconds;
+
 @end

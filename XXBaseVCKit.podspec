@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XXBaseVCKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'the base ViewController and Category of Project XX.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XXBaseVCKit/Classes/*{h,m}'
+  s.source_files = 'XXBaseVCKit/Classes/**/*{h,m}'
   
   # s.resource_bundles = {
   #   'XXBaseVCKit' => ['XXBaseVCKit/Assets/*.png']

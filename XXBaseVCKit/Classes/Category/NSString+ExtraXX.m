@@ -8,6 +8,8 @@
 
 #import "NSString+ExtraXX.h"
 #import <CommonCrypto/CommonDigest.h>
+#import <sys/utsname.h>
+#import <sys/time.h>
 
 @implementation NSString (ExtraXX)
 
@@ -80,6 +82,25 @@
         [str insertString:@"\n" atIndex:i*2 - 1];
     }
     return str;
+}
+
++(NSString *)iPhoneTypeString{
+    NSString *deviceType;
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    deviceType = [NSString stringWithCString:systemInfo.machine
+                                    encoding:NSUTF8StringEncoding];
+    return deviceType;
+}
+
++(uint64_t)sysTimeInMilliseconds{
+    uint64_t ts = 0;
+    struct timeval t;
+    int cres = gettimeofday(&t,NULL);
+    if (cres == 0) {
+        ts = (uint64_t)t.tv_sec * 1000 + t.tv_usec / 1000;
+    }
+    return ts;
 }
 
 @end
