@@ -1,9 +1,9 @@
 {
   "name": "XXBaseVCKit",
   "version": "0.1.0",
-  "summary": "A short description of XXBaseVCKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cheATSlark/XXBaseVCKit",
+  "summary": "the base ViewController and Category of Project XX.",
+  "description": "as the base part  of the XX Project,To release assemble",
+  "homepage": "https://github.com/CheATSlark/XXBaseVCKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "cheATSlark": "jruijqx@163.com"
   },
   "source": {
-    "git": "https://github.com/cheATSlark/XXBaseVCKit.git",
+    "git": "https://github.com/CheATSlark/XXBaseVCKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XXBaseVCKit/Classes/**/*"
+  "source_files": "XXBaseVCKit/Classes/**/*{h,m}"
 }

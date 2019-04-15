@@ -1,1 +1,1 @@
-../../../../../XXBaseVCKit/Classes/UIAlertView+ExtraXX.h
+../../../../../XXBaseVCKit/Classes/Category/UIAlertView+ExtraXX.h

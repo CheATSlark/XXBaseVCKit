@@ -1,1 +1,1 @@
-../../../../../XXBaseVCKit/Classes/NSString+ExtraXX.h
+../../../../../XXBaseVCKit/Classes/Category/NSString+ExtraXX.h

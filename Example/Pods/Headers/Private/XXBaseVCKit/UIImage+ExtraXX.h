@@ -1,1 +1,1 @@
-../../../../../XXBaseVCKit/Classes/UIImage+ExtraXX.h
+../../../../../XXBaseVCKit/Classes/Category/UIImage+ExtraXX.h

@@ -7,19 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D10A6FFD149AF91E30E9C47C0C07B91 /* UIView+XXExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F17784AE6EA5A61E96294581876E61 /* UIView+XXExtra.m */; };
-		1154D182BD4AB2EC0BB19DCDE9E25D0A /* XXExtraCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E79CEC9BD66D303830FD060792BBA950 /* XXExtraCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1617BC7775BF412F38D425B8EA626FE6 /* UIView+XXExtra.h in Headers */ = {isa = PBXBuildFile; fileRef = FA216026A8D5E52ECD7BE9F257E9892F /* UIView+XXExtra.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2A5BA3778F93935B0B4D2DC5836D8733 /* UIAlertView+ExtraXX.h in Headers */ = {isa = PBXBuildFile; fileRef = 632049C8A00D707CB7BADDF1B557D1F3 /* UIAlertView+ExtraXX.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3FCEB520A983EA3693C8514985A0A938 /* XXBaseVCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEEC93EE0A3E72C719715D2A397213A /* XXBaseVCKit-dummy.m */; };
-		4E9328533F30DF34F08CDF233A2C263D /* UIAlertView+ExtraXX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9ACD5B1555B46550F2FC8B664B95BB /* UIAlertView+ExtraXX.m */; };
-		7274868C533BE5303DAF09BDD864596C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81757208C78CEC030BD2B85CBA0F4913 /* ReplaceMe.m */; };
+		0066E882DC5D6076AA87C9485DA16FE1 /* IPModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 396F219204F6E80F7FC1F78E91D1ED93 /* IPModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		016EC1ADE7C0076F8D1914B6B9FD15F0 /* HTTPInterfaceManager+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848DFFF83F47DD959A1B4A58C5D89B4 /* HTTPInterfaceManager+User.m */; };
+		04869F53FBFD853993BAEC0C98261D05 /* HTTPInterfaceManager+Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF0EBC421DD01BB13BF1E8F16AAB67 /* HTTPInterfaceManager+Radar.m */; };
+		08D9871E6CA4C0E888E47906663FB085 /* HTTPInterfaceManager+Video.h in Headers */ = {isa = PBXBuildFile; fileRef = 946229131776A816CE2C13B167863C78 /* HTTPInterfaceManager+Video.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		107F5BAADA46DF2AB03C2D09422F7FA2 /* HTTPInterfaceManager+Market.h in Headers */ = {isa = PBXBuildFile; fileRef = 7064C0867A74FF60BFEB72C7F7E30EBC /* HTTPInterfaceManager+Market.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		159878D433405943065B06CA47663C57 /* HTTPInterfaceManager+SMMidRequset.m in Sources */ = {isa = PBXBuildFile; fileRef = 119BCB20BAA152485A7D4819EAA0E140 /* HTTPInterfaceManager+SMMidRequset.m */; };
+		15C7CF27F5DF863C21BA4FE64BFF5368 /* HTTPInterfaceManager+Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D295B8151011585BEFF4247227523A /* HTTPInterfaceManager+Video.m */; };
+		1988313A5FAF2F4A65C925D0EC732E59 /* HTTPInterfaceManager+InvitePlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5388B2726D0BE97F8ECB0AC7658A12 /* HTTPInterfaceManager+InvitePlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		205320041384B45D21FB1238A06B85CC /* HTTPInterfaceManager+ChatGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F26BC35ADB598128E68D0B41F55AF5F5 /* HTTPInterfaceManager+ChatGroup.m */; };
+		22200CFE8F8F2EB516AE62B7A2665DCA /* HTTPInterfaceManager+PhoneTie.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BA85D05C91267E7A2F7851F51BA99D /* HTTPInterfaceManager+PhoneTie.m */; };
+		25B1352A7F7191DE035F603D28F29288 /* HTTPInterfaceManager+ChatRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4D487EA81D1DDD8DC10435DF9972F6 /* HTTPInterfaceManager+ChatRoom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2825066099532C1A93079C2F8848A7F2 /* XXBaseVCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CBAECF88816FBA71B7C229ABD8290C /* XXBaseVCKit-dummy.m */; };
+		28D30B9BA6A9A4C12C774CA9D89AC50B /* UIAlertView+ExtraXX.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA413230E6DFDED78A4F2312C6F1756 /* UIAlertView+ExtraXX.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30CCEDD79342D9C8ED4F882F932551C1 /* HTTPInterfaceManager+GameCentre.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACE9937B83ED4FF54A859F0AFE4E50F /* HTTPInterfaceManager+GameCentre.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30F1D22740B8E245F25D98FC1A0E0156 /* HTTPInterfaceManager+Account.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FB71E286ED81BEA8EF8BDF9D6D1CFC /* HTTPInterfaceManager+Account.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		324DB9DB5C670916095D077719C4E439 /* HTTPInterfaceManager+DidiFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = F122194DAD615CDD4203F451A23BEB12 /* HTTPInterfaceManager+DidiFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E8F8F8FC5945DF5D1558EF063496D90 /* HTTPInterfaceManager+SMRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 309932C3F421A5BB2B4DCA52DAB6524A /* HTTPInterfaceManager+SMRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44DCEE24CF073908A0E773AC8053109F /* HTTPInterfaceManager+IDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C55424724371D7622FFF692E7ECE7 /* HTTPInterfaceManager+IDPhoto.m */; };
+		4782B7D8FC50F8A52D1E26A7E9D44C48 /* HTTPInterfaceManager+Admin.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F371F596AE42FBB8B6D4333180E0EC /* HTTPInterfaceManager+Admin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4897AE238C917A3A695318734CB02777 /* HTTPInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 148DB87795C4E05CAFACECCB051DEA6C /* HTTPInterfaceManager.m */; };
+		56C8F12398F5346BFCC86E283018A502 /* HTTPInterfaceManager+PhoneTie.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DD727B3B7C1D1448A965D33C50B0F2 /* HTTPInterfaceManager+PhoneTie.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5855444D3B4C67F65C6EB4241B989FED /* HTTPInterfaceManager+Qiniu.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF4DB11EB20460D3AA3D0B25880C1F /* HTTPInterfaceManager+Qiniu.m */; };
+		592B009111C0684D244E45A5E5461277 /* HTTPWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FECBC95C265B07BCA3CBBFA9DA1CA /* HTTPWorker.m */; };
+		593F47FE66805A26255E6F3EB40667D3 /* HTTPInterfaceManager+Feedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7780AE65B1BD2FAB75947BC2AC78A6 /* HTTPInterfaceManager+Feedback.m */; };
+		63A03C5AE7A962F4026303ADA2132342 /* HTTPInterfaceManager+ShortVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4203DF4F9B6B918049C03A52222560 /* HTTPInterfaceManager+ShortVideo.m */; };
+		6E48C22046DDC84FC1B6AC9517383C82 /* HTTPInterfaceManager+FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 359759F5D4E1F757E13E0AEE6D8E91AC /* HTTPInterfaceManager+FaceView.m */; };
+		6F47B12CA887D0327AF793C37850CE26 /* HTTPInterfaceManager+NewGifts.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B387146EC9ED5F545479C32B786388C /* HTTPInterfaceManager+NewGifts.m */; };
+		7328B15C8C304D8DB424550C6E700C02 /* HTTPInterfaceManager+ChatGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = C50CCD6408C7C34D17B0CDF68B952567 /* HTTPInterfaceManager+ChatGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D78846AFC5231FB857A1B03E9AC353B /* HTTPInterfaceManager+Prize.h in Headers */ = {isa = PBXBuildFile; fileRef = F589033914E4BD3C910C66D53DF94265 /* HTTPInterfaceManager+Prize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82F13773B0FF1C417DBBC2C5D12F99DD /* HTTPInterfaceManager+Market.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D01C3DC2D5025882546EA00D196E69 /* HTTPInterfaceManager+Market.m */; };
+		839A014AD23EA515A5FF2ED47EA0B6DC /* HTTPInterfaceManager+AudioChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C26B6AB2A4BCE0ECEE291388CB38897 /* HTTPInterfaceManager+AudioChat.m */; };
+		83CCF9945D4F4B62CDBFEAEB608C294C /* HTTPInterfaceManager+Gift.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4572882877C14BBED1108905A6C2A8 /* HTTPInterfaceManager+Gift.m */; };
+		852780F82C42F21696357A9A148AF145 /* HTTPInterfaceManager+SMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8B9C5ECD959C64D0F6053A1353683 /* HTTPInterfaceManager+SMRequest.m */; };
+		870A7CF7375F1A9DC50B94965A3B38AF /* CommonSvrErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D17AE4B99C0C874E099B65B8B37864E9 /* CommonSvrErrorHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		898A79018F91EE1FA781059DEA89210D /* HTTPWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = A559C7FF8F882202B841662491099789 /* HTTPWorker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89EA0DC8AEA24100D0706F36D87E3615 /* HTTPInterfaceManager+RedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E6509E21C634D7CAFDAD4B0861E6F /* HTTPInterfaceManager+RedPacket.m */; };
 		8B030CF33302833F989429CA9847A817 /* Pods-XXBaseVCKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DB39092387F235FA7F7E5F10E8954D /* Pods-XXBaseVCKit_Example-dummy.m */; };
-		91F826EAAFDFD9E8A50648D5C9583679 /* UIImage+ExtraXX.m in Sources */ = {isa = PBXBuildFile; fileRef = AA034404632291FF8245AA32F082F816 /* UIImage+ExtraXX.m */; };
-		C78D6E1FD24C87211C0B9F223AE4DF13 /* NSString+ExtraXX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1446A8D77A2D79A9ED4991165B968232 /* NSString+ExtraXX.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D2E57BA2565EA2B515BF7D130F1E2D5F /* NSString+ExtraXX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C0829CC701DCA274CA998F312185E /* NSString+ExtraXX.m */; };
+		8BB36CD026659D8FD76730870B1964AE /* UIAlertView+ExtraXX.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A808B3874807E2ABC3ADE3253ADF73 /* UIAlertView+ExtraXX.m */; };
+		8C491E6855F07DACF8ACC2F8574091D4 /* HTTPInterfaceAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FA9F43B02BC3A3FA47E4A75174475 /* HTTPInterfaceAddress.m */; };
+		90924E65E04399AC7E2A1CAE2D2C3971 /* HTTPInterfaceManager+Feeds.m in Sources */ = {isa = PBXBuildFile; fileRef = 7823277904A35896FBA55001AEC561CF /* HTTPInterfaceManager+Feeds.m */; };
+		90AEC5707D2F748377AABA1316B573EC /* HTTPInterfaceManager+Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA19D67412061C30EE7E44656539429 /* HTTPInterfaceManager+Config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9396C9814BFABCD72E9B0846D730DDC6 /* NSString+ExtraXX.h in Headers */ = {isa = PBXBuildFile; fileRef = 559D31302F69ADD907AFAE46C4AC4169 /* NSString+ExtraXX.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9511D72D95AE67B7AB54D8BB6FB85C96 /* HTTPInterfaceManager+InvitePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEB91130A449982D96330F1C718771 /* HTTPInterfaceManager+InvitePlay.m */; };
+		A0E535D19B2CA025B45B08F43C55CEDD /* HTTPInterfaceManager+User.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2410CEDCAACCED37E7EBEEE41DF06D /* HTTPInterfaceManager+User.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A14BB84FC6CF9C00DC261128F8285BDD /* HTTPInterfaceManager+FaceView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A88E605A966FA3E870B040D6BAAEAF /* HTTPInterfaceManager+FaceView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8ACA13B357C6C79060CA9869238D356 /* HTTPInterfaceManager+Gift.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E7269E66C4F6933958E9C8DDF0D73E /* HTTPInterfaceManager+Gift.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8B34949BB482646DEC6356E43FD0EC8 /* HTTPInterfaceManager+Prize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CE4D17E59F2859A13452BA5F10376 /* HTTPInterfaceManager+Prize.m */; };
+		B10E2BCA0D46A7A9EC80F4ED0A6AF912 /* XXExtraCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 933D791B937D9762D08BDEA72E9E53CF /* XXExtraCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1A26425E73704E6CE672C9BDEEFEB7E /* IPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 605310E9D232EDBC4A6E2722A9FFD87A /* IPModel.m */; };
+		B41D1244F2338912754E836930EECBF6 /* UIImage+ExtraXX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E6396CE70CB59CBC909CED137B5C3 /* UIImage+ExtraXX.m */; };
+		B911FDF19683444D16620F83E7C31C46 /* HTTPInterfaceManager+GameCentre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430CB7DE04020C90C64FE4C9231F877 /* HTTPInterfaceManager+GameCentre.m */; };
+		BAEBA75D75CE5FBDA7CD7C44E178500E /* HTTPInterfaceManager+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B28AC766FD6DF407B0D61A6FF96BA0B /* HTTPInterfaceManager+Config.m */; };
+		BD2BCCC9A5000EDB8C4C4C25EEE8A330 /* HTTPInterfaceManager+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE80FB5EF7A62AEF8FE86C0F89E230 /* HTTPInterfaceManager+Account.m */; };
+		BDD736804BD00A67C8FF7018BE680E26 /* HTTPInterfaceManager+Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = 490AFFBA28D7F8C5F4FF675C0B00082F /* HTTPInterfaceManager+Admin.m */; };
+		C7C748441EE25D7F917FF5E73DC37734 /* UIView+XXExtra.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2EECE2A85C6A680547695AFB834F26 /* UIView+XXExtra.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBA048F2A4A9F70687C786BD655F536A /* HTTPInterfaceAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC49FC48510770F72DC96262506EED8 /* HTTPInterfaceAddress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCD431554B6161C7DD381826C0B090C7 /* HTTPInterfaceManager+Radar.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B570DB3D800F7F353038D56F75D3A0 /* HTTPInterfaceManager+Radar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D329183ED4D3F09E5B6799C8076DE282 /* UIView+XXExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 072200C6BDDCA3FE03A7726585908CCD /* UIView+XXExtra.m */; };
+		DE77F6F97C0EB755FFADC6039C13850F /* HTTPInterfaceManager+DidiFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA2386CA809BF01A294819D3D19AF9 /* HTTPInterfaceManager+DidiFunction.m */; };
+		DEFDA03BDEC1CB28574BABFB7839B461 /* IPSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC53DC0960252F8004A20DC90278318 /* IPSelector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1688E9DCDD74D921D1F726332464961 /* HTTPInterfaceManager+NewGifts.h in Headers */ = {isa = PBXBuildFile; fileRef = 19524143E5285CE1C6CE34A7CC00CE9E /* HTTPInterfaceManager+NewGifts.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E251FCE5DAB8726BEA68B145E39CA466 /* Pods-XXBaseVCKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C8D6CCF09F8DEC723F1D12FBE27E9 /* Pods-XXBaseVCKit_Tests-dummy.m */; };
-		ED645CCB969EBBE9C5F97F313E933A2F /* UIImage+ExtraXX.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C04C64B3D07EFCDD2DA1C851610E23 /* UIImage+ExtraXX.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6CCDA9FE479C8C8E708AC24EDB8EE53 /* HTTPInterfaceManager+Feeds.h in Headers */ = {isa = PBXBuildFile; fileRef = 6934AC609D48B82D9BC67037F217FA26 /* HTTPInterfaceManager+Feeds.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E847354766E8FEF3348BB8233A3FE90B /* HTTPInterfaceManager+Feedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFF73870EC97F3C93A7030AF4152396 /* HTTPInterfaceManager+Feedback.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9271823C434630D2903BE6D34D2B176 /* UIImage+ExtraXX.h in Headers */ = {isa = PBXBuildFile; fileRef = D408F38FB5C447F8AB8C6CF2886115C1 /* UIImage+ExtraXX.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC212DF8EC19FCB85E2E5DBBF36BE2FC /* HTTPInterfaceManager+IDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8ADF01FBA6EFBE69969CFB989C88EF /* HTTPInterfaceManager+IDPhoto.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F20C5B23C1AF83986C1B4EB9BA1E7DB3 /* HTTPInterfaceManager+AudioChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF7E499FCD549F24641979014E1FC24 /* HTTPInterfaceManager+AudioChat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F52C5209A28C126F44E3154EF642A9C8 /* CommonSvrErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B84DCEAE0F13637F550B947232EAE6DB /* CommonSvrErrorHandler.m */; };
+		F56F118BD755D0B63569E97456390FD6 /* HTTPInterfaceManager+Qiniu.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4EE20B987B9EA12B490A1D17A65708 /* HTTPInterfaceManager+Qiniu.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F69686444302D969AE5413E1356330B9 /* HTTPInterfaceManager+ShortVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF704FA55E931D53D993E2A784F02B1 /* HTTPInterfaceManager+ShortVideo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F70E3DAACCD39A7BF0DAC14F0616A28E /* IPSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A73AD96D5DA2DA85BC426491659A /* IPSelector.m */; };
+		F7FBA32BE95B032AA1F088938945F534 /* HTTPInterfaceManager+SMMidRequset.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FF7059A0B84E5C1F0BCA8A891F0359 /* HTTPInterfaceManager+SMMidRequset.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F84BDD7FE081541CF8E83D395525994A /* HTTPInterfaceManager+ChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BA8220A6DA6847FF5E73CFDB4541D /* HTTPInterfaceManager+ChatRoom.m */; };
+		F8CF785B52194E9952B255FB865D9390 /* NSString+ExtraXX.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CFE0A0C5EF403F27B23CFD8482786 /* NSString+ExtraXX.m */; };
+		FE462C1C164E46DE972C8A638A0C6CCC /* HTTPInterfaceManager+RedPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E871122BCBBF7F8859387265AF7A344 /* HTTPInterfaceManager+RedPacket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF2A3147CF91843A79E50082520AD4A0 /* HTTPInterfaceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3042421A8E25BFDDFED8E3D32720C29 /* HTTPInterfaceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,36 +103,99 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1446A8D77A2D79A9ED4991165B968232 /* NSString+ExtraXX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ExtraXX.h"; path = "XXBaseVCKit/Classes/NSString+ExtraXX.h"; sourceTree = "<group>"; };
-		1ACC86553541C97364200BB0BEF17A5A /* XXBaseVCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXBaseVCKit-prefix.pch"; sourceTree = "<group>"; };
+		072200C6BDDCA3FE03A7726585908CCD /* UIView+XXExtra.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXExtra.m"; sourceTree = "<group>"; };
+		087F9AE459DFEAFD820837E2796A340B /* XXBaseVCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXBaseVCKit-prefix.pch"; sourceTree = "<group>"; };
+		0B387146EC9ED5F545479C32B786388C /* HTTPInterfaceManager+NewGifts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+NewGifts.m"; sourceTree = "<group>"; };
+		0CCE80FB5EF7A62AEF8FE86C0F89E230 /* HTTPInterfaceManager+Account.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Account.m"; sourceTree = "<group>"; };
+		119BCB20BAA152485A7D4819EAA0E140 /* HTTPInterfaceManager+SMMidRequset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+SMMidRequset.m"; sourceTree = "<group>"; };
+		1430CB7DE04020C90C64FE4C9231F877 /* HTTPInterfaceManager+GameCentre.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+GameCentre.m"; sourceTree = "<group>"; };
+		148DB87795C4E05CAFACECCB051DEA6C /* HTTPInterfaceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPInterfaceManager.m; sourceTree = "<group>"; };
+		17AF4DB11EB20460D3AA3D0B25880C1F /* HTTPInterfaceManager+Qiniu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Qiniu.m"; sourceTree = "<group>"; };
+		1848DFFF83F47DD959A1B4A58C5D89B4 /* HTTPInterfaceManager+User.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+User.m"; sourceTree = "<group>"; };
+		19524143E5285CE1C6CE34A7CC00CE9E /* HTTPInterfaceManager+NewGifts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+NewGifts.h"; sourceTree = "<group>"; };
+		1AF7E499FCD549F24641979014E1FC24 /* HTTPInterfaceManager+AudioChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+AudioChat.h"; sourceTree = "<group>"; };
+		1D4D487EA81D1DDD8DC10435DF9972F6 /* HTTPInterfaceManager+ChatRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+ChatRoom.h"; sourceTree = "<group>"; };
+		1D4EE20B987B9EA12B490A1D17A65708 /* HTTPInterfaceManager+Qiniu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Qiniu.h"; sourceTree = "<group>"; };
 		252B4EDDE0E27AAC4603ACAAA452E907 /* Pods-XXBaseVCKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXBaseVCKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		37970194C2DB878F1F563D195F70FF6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		39C04C64B3D07EFCDD2DA1C851610E23 /* UIImage+ExtraXX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ExtraXX.h"; path = "XXBaseVCKit/Classes/UIImage+ExtraXX.h"; sourceTree = "<group>"; };
+		2C26B6AB2A4BCE0ECEE291388CB38897 /* HTTPInterfaceManager+AudioChat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+AudioChat.m"; sourceTree = "<group>"; };
+		2D5388B2726D0BE97F8ECB0AC7658A12 /* HTTPInterfaceManager+InvitePlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+InvitePlay.h"; sourceTree = "<group>"; };
+		2FA19D67412061C30EE7E44656539429 /* HTTPInterfaceManager+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Config.h"; sourceTree = "<group>"; };
+		309932C3F421A5BB2B4DCA52DAB6524A /* HTTPInterfaceManager+SMRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+SMRequest.h"; sourceTree = "<group>"; };
+		324FA9F43B02BC3A3FA47E4A75174475 /* HTTPInterfaceAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPInterfaceAddress.m; sourceTree = "<group>"; };
+		34D01C3DC2D5025882546EA00D196E69 /* HTTPInterfaceManager+Market.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Market.m"; sourceTree = "<group>"; };
+		359759F5D4E1F757E13E0AEE6D8E91AC /* HTTPInterfaceManager+FaceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+FaceView.m"; sourceTree = "<group>"; };
+		396F219204F6E80F7FC1F78E91D1ED93 /* IPModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IPModel.h; sourceTree = "<group>"; };
+		3B9BA8220A6DA6847FF5E73CFDB4541D /* HTTPInterfaceManager+ChatRoom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+ChatRoom.m"; sourceTree = "<group>"; };
 		40935D837DB988315383317DC962F904 /* libPods-XXBaseVCKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XXBaseVCKit_Tests.a"; path = "libPods-XXBaseVCKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CBAECF88816FBA71B7C229ABD8290C /* XXBaseVCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXBaseVCKit-dummy.m"; sourceTree = "<group>"; };
+		40FB71E286ED81BEA8EF8BDF9D6D1CFC /* HTTPInterfaceManager+Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Account.h"; sourceTree = "<group>"; };
+		44D295B8151011585BEFF4247227523A /* HTTPInterfaceManager+Video.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Video.m"; sourceTree = "<group>"; };
+		459CFE0A0C5EF403F27B23CFD8482786 /* NSString+ExtraXX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ExtraXX.m"; sourceTree = "<group>"; };
+		479FECBC95C265B07BCA3CBBFA9DA1CA /* HTTPWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPWorker.m; sourceTree = "<group>"; };
 		480CDBF5FB752539D83C924A488B23AC /* Pods-XXBaseVCKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXBaseVCKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		490AFFBA28D7F8C5F4FF675C0B00082F /* HTTPInterfaceManager+Admin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Admin.m"; sourceTree = "<group>"; };
+		4EB8B9C5ECD959C64D0F6053A1353683 /* HTTPInterfaceManager+SMRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+SMRequest.m"; sourceTree = "<group>"; };
 		557ABC3BABE80F063BADBCBB3626BF33 /* Pods-XXBaseVCKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXBaseVCKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5FBA64D6CCB61906BDDEA2EE50ED2B03 /* XXBaseVCKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXBaseVCKit.xcconfig; sourceTree = "<group>"; };
-		632049C8A00D707CB7BADDF1B557D1F3 /* UIAlertView+ExtraXX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+ExtraXX.h"; path = "XXBaseVCKit/Classes/UIAlertView+ExtraXX.h"; sourceTree = "<group>"; };
-		65F17784AE6EA5A61E96294581876E61 /* UIView+XXExtra.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XXExtra.m"; path = "XXBaseVCKit/Classes/UIView+XXExtra.m"; sourceTree = "<group>"; };
-		66B840A9C970CE5B79F651806B520348 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		559D31302F69ADD907AFAE46C4AC4169 /* NSString+ExtraXX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ExtraXX.h"; sourceTree = "<group>"; };
+		5A8E6396CE70CB59CBC909CED137B5C3 /* UIImage+ExtraXX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtraXX.m"; sourceTree = "<group>"; };
+		5BAA2386CA809BF01A294819D3D19AF9 /* HTTPInterfaceManager+DidiFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+DidiFunction.m"; sourceTree = "<group>"; };
+		5E6CE4D17E59F2859A13452BA5F10376 /* HTTPInterfaceManager+Prize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Prize.m"; sourceTree = "<group>"; };
+		5F7780AE65B1BD2FAB75947BC2AC78A6 /* HTTPInterfaceManager+Feedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Feedback.m"; sourceTree = "<group>"; };
+		5F7C55424724371D7622FFF692E7ECE7 /* HTTPInterfaceManager+IDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+IDPhoto.m"; sourceTree = "<group>"; };
+		5FEF0EBC421DD01BB13BF1E8F16AAB67 /* HTTPInterfaceManager+Radar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Radar.m"; sourceTree = "<group>"; };
+		605310E9D232EDBC4A6E2722A9FFD87A /* IPModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IPModel.m; sourceTree = "<group>"; };
 		68ED0F54EFAB6FAD6DDB496B6AD421CB /* Pods-XXBaseVCKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXBaseVCKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6BEEC93EE0A3E72C719715D2A397213A /* XXBaseVCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXBaseVCKit-dummy.m"; sourceTree = "<group>"; };
+		6934AC609D48B82D9BC67037F217FA26 /* HTTPInterfaceManager+Feeds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Feeds.h"; sourceTree = "<group>"; };
+		6B2410CEDCAACCED37E7EBEEE41DF06D /* HTTPInterfaceManager+User.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+User.h"; sourceTree = "<group>"; };
+		6BFF73870EC97F3C93A7030AF4152396 /* HTTPInterfaceManager+Feedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Feedback.h"; sourceTree = "<group>"; };
 		6CCEAD90F7E3D86143F681C498E40207 /* Pods-XXBaseVCKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXBaseVCKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7064C0867A74FF60BFEB72C7F7E30EBC /* HTTPInterfaceManager+Market.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Market.h"; sourceTree = "<group>"; };
+		70D5A73AD96D5DA2DA85BC426491659A /* IPSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IPSelector.m; sourceTree = "<group>"; };
 		72DDF9619EE0F4C2274AABE7F1E7551A /* Pods-XXBaseVCKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXBaseVCKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		81757208C78CEC030BD2B85CBA0F4913 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XXBaseVCKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		85AA8AAEF9BDA611E6F713F2471FCDAF /* XXBaseVCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XXBaseVCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8D9ACD5B1555B46550F2FC8B664B95BB /* UIAlertView+ExtraXX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+ExtraXX.m"; path = "XXBaseVCKit/Classes/UIAlertView+ExtraXX.m"; sourceTree = "<group>"; };
-		8F9C0829CC701DCA274CA998F312185E /* NSString+ExtraXX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ExtraXX.m"; path = "XXBaseVCKit/Classes/NSString+ExtraXX.m"; sourceTree = "<group>"; };
+		750E6509E21C634D7CAFDAD4B0861E6F /* HTTPInterfaceManager+RedPacket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+RedPacket.m"; sourceTree = "<group>"; };
+		7823277904A35896FBA55001AEC561CF /* HTTPInterfaceManager+Feeds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Feeds.m"; sourceTree = "<group>"; };
+		78FF7059A0B84E5C1F0BCA8A891F0359 /* HTTPInterfaceManager+SMMidRequset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+SMMidRequset.h"; sourceTree = "<group>"; };
+		79F371F596AE42FBB8B6D4333180E0EC /* HTTPInterfaceManager+Admin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Admin.h"; sourceTree = "<group>"; };
+		7ACE9937B83ED4FF54A859F0AFE4E50F /* HTTPInterfaceManager+GameCentre.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+GameCentre.h"; sourceTree = "<group>"; };
+		7E871122BCBBF7F8859387265AF7A344 /* HTTPInterfaceManager+RedPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+RedPacket.h"; sourceTree = "<group>"; };
+		7F4572882877C14BBED1108905A6C2A8 /* HTTPInterfaceManager+Gift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Gift.m"; sourceTree = "<group>"; };
+		82BA85D05C91267E7A2F7851F51BA99D /* HTTPInterfaceManager+PhoneTie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+PhoneTie.m"; sourceTree = "<group>"; };
+		8840FF24B6F2899BB8485E81590A4223 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		88A808B3874807E2ABC3ADE3253ADF73 /* UIAlertView+ExtraXX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ExtraXX.m"; sourceTree = "<group>"; };
+		8B28AC766FD6DF407B0D61A6FF96BA0B /* HTTPInterfaceManager+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+Config.m"; sourceTree = "<group>"; };
+		8E8ADF01FBA6EFBE69969CFB989C88EF /* HTTPInterfaceManager+IDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+IDPhoto.h"; sourceTree = "<group>"; };
+		933D791B937D9762D08BDEA72E9E53CF /* XXExtraCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXExtraCategory.h; sourceTree = "<group>"; };
+		946229131776A816CE2C13B167863C78 /* HTTPInterfaceManager+Video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Video.h"; sourceTree = "<group>"; };
+		9B4203DF4F9B6B918049C03A52222560 /* HTTPInterfaceManager+ShortVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+ShortVideo.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA034404632291FF8245AA32F082F816 /* UIImage+ExtraXX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ExtraXX.m"; path = "XXBaseVCKit/Classes/UIImage+ExtraXX.m"; sourceTree = "<group>"; };
+		A559C7FF8F882202B841662491099789 /* HTTPWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPWorker.h; sourceTree = "<group>"; };
+		AEF704FA55E931D53D993E2A784F02B1 /* HTTPInterfaceManager+ShortVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+ShortVideo.h"; sourceTree = "<group>"; };
+		B84DCEAE0F13637F550B947232EAE6DB /* CommonSvrErrorHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CommonSvrErrorHandler.m; sourceTree = "<group>"; };
+		B8B570DB3D800F7F353038D56F75D3A0 /* HTTPInterfaceManager+Radar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Radar.h"; sourceTree = "<group>"; };
+		C1DD727B3B7C1D1448A965D33C50B0F2 /* HTTPInterfaceManager+PhoneTie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+PhoneTie.h"; sourceTree = "<group>"; };
+		C50CCD6408C7C34D17B0CDF68B952567 /* HTTPInterfaceManager+ChatGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+ChatGroup.h"; sourceTree = "<group>"; };
+		CB2EECE2A85C6A680547695AFB834F26 /* UIView+XXExtra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XXExtra.h"; sourceTree = "<group>"; };
 		CB400C3E4EE6BDA30DF17C8879ACB0CD /* Pods-XXBaseVCKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXBaseVCKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBEEB91130A449982D96330F1C718771 /* HTTPInterfaceManager+InvitePlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+InvitePlay.m"; sourceTree = "<group>"; };
+		CDC53DC0960252F8004A20DC90278318 /* IPSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IPSelector.h; sourceTree = "<group>"; };
+		CFCFC5FD80641F1AC636EB3433ED1675 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D17AE4B99C0C874E099B65B8B37864E9 /* CommonSvrErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonSvrErrorHandler.h; sourceTree = "<group>"; };
+		D408F38FB5C447F8AB8C6CF2886115C1 /* UIImage+ExtraXX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ExtraXX.h"; sourceTree = "<group>"; };
+		D47FE5CD0C3E8287C94370E7096AFB42 /* XXBaseVCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XXBaseVCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4E7269E66C4F6933958E9C8DDF0D73E /* HTTPInterfaceManager+Gift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Gift.h"; sourceTree = "<group>"; };
+		D6A88E605A966FA3E870B040D6BAAEAF /* HTTPInterfaceManager+FaceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+FaceView.h"; sourceTree = "<group>"; };
+		DAC49FC48510770F72DC96262506EED8 /* HTTPInterfaceAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPInterfaceAddress.h; sourceTree = "<group>"; };
 		DAE30F83930F06B5EE0B8EE444A777F8 /* Pods-XXBaseVCKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXBaseVCKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE9C8D6CCF09F8DEC723F1D12FBE27E9 /* Pods-XXBaseVCKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXBaseVCKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		E2454C26842E90AE52722DB81C46224F /* libPods-XXBaseVCKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XXBaseVCKit_Example.a"; path = "libPods-XXBaseVCKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E79CEC9BD66D303830FD060792BBA950 /* XXExtraCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXExtraCategory.h; path = XXBaseVCKit/Classes/XXExtraCategory.h; sourceTree = "<group>"; };
+		F122194DAD615CDD4203F451A23BEB12 /* HTTPInterfaceManager+DidiFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+DidiFunction.h"; sourceTree = "<group>"; };
 		F14D89CF4169DBCE5594CF2CABF817FD /* libXXBaseVCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXXBaseVCKit.a; path = libXXBaseVCKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26BC35ADB598128E68D0B41F55AF5F5 /* HTTPInterfaceManager+ChatGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPInterfaceManager+ChatGroup.m"; sourceTree = "<group>"; };
+		F3042421A8E25BFDDFED8E3D32720C29 /* HTTPInterfaceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPInterfaceManager.h; sourceTree = "<group>"; };
+		F589033914E4BD3C910C66D53DF94265 /* HTTPInterfaceManager+Prize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPInterfaceManager+Prize.h"; sourceTree = "<group>"; };
+		F6464057A79025FEBD187065DD54081F /* XXBaseVCKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXBaseVCKit.xcconfig; sourceTree = "<group>"; };
 		F9DB39092387F235FA7F7E5F10E8954D /* Pods-XXBaseVCKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXBaseVCKit_Example-dummy.m"; sourceTree = "<group>"; };
-		FA216026A8D5E52ECD7BE9F257E9892F /* UIView+XXExtra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XXExtra.h"; path = "XXBaseVCKit/Classes/UIView+XXExtra.h"; sourceTree = "<group>"; };
+		FCA413230E6DFDED78A4F2312C6F1756 /* UIAlertView+ExtraXX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ExtraXX.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +213,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2A82208E954E6EB8BFC9253B66DF04B /* Frameworks */ = {
+		F28174CC88A29D39A8242FCCB2D45CCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,34 +223,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3133BAC46E8376D9A51FAC082138BA7E /* XXBaseVCKit */ = {
+		12BDBDA0483371D547FF3360A2C93E19 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1446A8D77A2D79A9ED4991165B968232 /* NSString+ExtraXX.h */,
-				8F9C0829CC701DCA274CA998F312185E /* NSString+ExtraXX.m */,
-				81757208C78CEC030BD2B85CBA0F4913 /* ReplaceMe.m */,
-				632049C8A00D707CB7BADDF1B557D1F3 /* UIAlertView+ExtraXX.h */,
-				8D9ACD5B1555B46550F2FC8B664B95BB /* UIAlertView+ExtraXX.m */,
-				39C04C64B3D07EFCDD2DA1C851610E23 /* UIImage+ExtraXX.h */,
-				AA034404632291FF8245AA32F082F816 /* UIImage+ExtraXX.m */,
-				FA216026A8D5E52ECD7BE9F257E9892F /* UIView+XXExtra.h */,
-				65F17784AE6EA5A61E96294581876E61 /* UIView+XXExtra.m */,
-				E79CEC9BD66D303830FD060792BBA950 /* XXExtraCategory.h */,
-				528866E6D8C31A29F7533D12A56DCF6B /* Pod */,
-				7961083EA79F0D9E9A9FA43A6C0217A1 /* Support Files */,
+				6606B98DE785B3DE3F32C6C5F86D7E02 /* XXBaseVCKit */,
 			);
-			name = XXBaseVCKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		528866E6D8C31A29F7533D12A56DCF6B /* Pod */ = {
+		3887BD1723EC16E067180D326E3532DE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				66B840A9C970CE5B79F651806B520348 /* LICENSE */,
-				37970194C2DB878F1F563D195F70FF6C /* README.md */,
-				85AA8AAEF9BDA611E6F713F2471FCDAF /* XXBaseVCKit.podspec */,
+				F6464057A79025FEBD187065DD54081F /* XXBaseVCKit.xcconfig */,
+				40CBAECF88816FBA71B7C229ABD8290C /* XXBaseVCKit-dummy.m */,
+				087F9AE459DFEAFD820837E2796A340B /* XXBaseVCKit-prefix.pch */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XXBaseVCKit";
 			sourceTree = "<group>";
 		};
 		536680F48B029654C6FA94125419BCBD /* Products */ = {
@@ -137,15 +252,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7961083EA79F0D9E9A9FA43A6C0217A1 /* Support Files */ = {
+		6606B98DE785B3DE3F32C6C5F86D7E02 /* XXBaseVCKit */ = {
 			isa = PBXGroup;
 			children = (
-				5FBA64D6CCB61906BDDEA2EE50ED2B03 /* XXBaseVCKit.xcconfig */,
-				6BEEC93EE0A3E72C719715D2A397213A /* XXBaseVCKit-dummy.m */,
-				1ACC86553541C97364200BB0BEF17A5A /* XXBaseVCKit-prefix.pch */,
+				A6AD4D216C55B306370F191C6496ED70 /* Category */,
+				672F386431D2E678F071B7F5B97ECC7E /* IPSelector */,
+				6E1816A4BAF0368D17B870B0A534882E /* Pod */,
+				E90354BEF752DB142B661096B4BC8B39 /* Server */,
+				3887BD1723EC16E067180D326E3532DE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XXBaseVCKit";
+			name = XXBaseVCKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		672F386431D2E678F071B7F5B97ECC7E /* IPSelector */ = {
+			isa = PBXGroup;
+			children = (
+				396F219204F6E80F7FC1F78E91D1ED93 /* IPModel.h */,
+				605310E9D232EDBC4A6E2722A9FFD87A /* IPModel.m */,
+				CDC53DC0960252F8004A20DC90278318 /* IPSelector.h */,
+				70D5A73AD96D5DA2DA85BC426491659A /* IPSelector.m */,
+			);
+			name = IPSelector;
+			path = XXBaseVCKit/Classes/IPSelector;
+			sourceTree = "<group>";
+		};
+		6E1816A4BAF0368D17B870B0A534882E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8840FF24B6F2899BB8485E81590A4223 /* LICENSE */,
+				CFCFC5FD80641F1AC636EB3433ED1675 /* README.md */,
+				D47FE5CD0C3E8287C94370E7096AFB42 /* XXBaseVCKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9528718E3C1824850442C10DABF6356D /* Pods-XXBaseVCKit_Tests */ = {
@@ -161,6 +300,23 @@
 			path = "Target Support Files/Pods-XXBaseVCKit_Tests";
 			sourceTree = "<group>";
 		};
+		A6AD4D216C55B306370F191C6496ED70 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				559D31302F69ADD907AFAE46C4AC4169 /* NSString+ExtraXX.h */,
+				459CFE0A0C5EF403F27B23CFD8482786 /* NSString+ExtraXX.m */,
+				FCA413230E6DFDED78A4F2312C6F1756 /* UIAlertView+ExtraXX.h */,
+				88A808B3874807E2ABC3ADE3253ADF73 /* UIAlertView+ExtraXX.m */,
+				D408F38FB5C447F8AB8C6CF2886115C1 /* UIImage+ExtraXX.h */,
+				5A8E6396CE70CB59CBC909CED137B5C3 /* UIImage+ExtraXX.m */,
+				CB2EECE2A85C6A680547695AFB834F26 /* UIView+XXExtra.h */,
+				072200C6BDDCA3FE03A7726585908CCD /* UIView+XXExtra.m */,
+				933D791B937D9762D08BDEA72E9E53CF /* XXExtraCategory.h */,
+			);
+			name = Category;
+			path = XXBaseVCKit/Classes/Category;
+			sourceTree = "<group>";
+		};
 		C8F6419287A9F4BD9C5D56455E76B5F9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,19 +330,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D2B437D0D74BCE0D9C7BF921D2C63D1D /* Development Pods */,
+				12BDBDA0483371D547FF3360A2C93E19 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				536680F48B029654C6FA94125419BCBD /* Products */,
 				C8F6419287A9F4BD9C5D56455E76B5F9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D2B437D0D74BCE0D9C7BF921D2C63D1D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3133BAC46E8376D9A51FAC082138BA7E /* XXBaseVCKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -194,6 +342,74 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90354BEF752DB142B661096B4BC8B39 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				D17AE4B99C0C874E099B65B8B37864E9 /* CommonSvrErrorHandler.h */,
+				B84DCEAE0F13637F550B947232EAE6DB /* CommonSvrErrorHandler.m */,
+				DAC49FC48510770F72DC96262506EED8 /* HTTPInterfaceAddress.h */,
+				324FA9F43B02BC3A3FA47E4A75174475 /* HTTPInterfaceAddress.m */,
+				F3042421A8E25BFDDFED8E3D32720C29 /* HTTPInterfaceManager.h */,
+				148DB87795C4E05CAFACECCB051DEA6C /* HTTPInterfaceManager.m */,
+				40FB71E286ED81BEA8EF8BDF9D6D1CFC /* HTTPInterfaceManager+Account.h */,
+				0CCE80FB5EF7A62AEF8FE86C0F89E230 /* HTTPInterfaceManager+Account.m */,
+				79F371F596AE42FBB8B6D4333180E0EC /* HTTPInterfaceManager+Admin.h */,
+				490AFFBA28D7F8C5F4FF675C0B00082F /* HTTPInterfaceManager+Admin.m */,
+				1AF7E499FCD549F24641979014E1FC24 /* HTTPInterfaceManager+AudioChat.h */,
+				2C26B6AB2A4BCE0ECEE291388CB38897 /* HTTPInterfaceManager+AudioChat.m */,
+				C50CCD6408C7C34D17B0CDF68B952567 /* HTTPInterfaceManager+ChatGroup.h */,
+				F26BC35ADB598128E68D0B41F55AF5F5 /* HTTPInterfaceManager+ChatGroup.m */,
+				1D4D487EA81D1DDD8DC10435DF9972F6 /* HTTPInterfaceManager+ChatRoom.h */,
+				3B9BA8220A6DA6847FF5E73CFDB4541D /* HTTPInterfaceManager+ChatRoom.m */,
+				2FA19D67412061C30EE7E44656539429 /* HTTPInterfaceManager+Config.h */,
+				8B28AC766FD6DF407B0D61A6FF96BA0B /* HTTPInterfaceManager+Config.m */,
+				F122194DAD615CDD4203F451A23BEB12 /* HTTPInterfaceManager+DidiFunction.h */,
+				5BAA2386CA809BF01A294819D3D19AF9 /* HTTPInterfaceManager+DidiFunction.m */,
+				D6A88E605A966FA3E870B040D6BAAEAF /* HTTPInterfaceManager+FaceView.h */,
+				359759F5D4E1F757E13E0AEE6D8E91AC /* HTTPInterfaceManager+FaceView.m */,
+				6BFF73870EC97F3C93A7030AF4152396 /* HTTPInterfaceManager+Feedback.h */,
+				5F7780AE65B1BD2FAB75947BC2AC78A6 /* HTTPInterfaceManager+Feedback.m */,
+				6934AC609D48B82D9BC67037F217FA26 /* HTTPInterfaceManager+Feeds.h */,
+				7823277904A35896FBA55001AEC561CF /* HTTPInterfaceManager+Feeds.m */,
+				7ACE9937B83ED4FF54A859F0AFE4E50F /* HTTPInterfaceManager+GameCentre.h */,
+				1430CB7DE04020C90C64FE4C9231F877 /* HTTPInterfaceManager+GameCentre.m */,
+				D4E7269E66C4F6933958E9C8DDF0D73E /* HTTPInterfaceManager+Gift.h */,
+				7F4572882877C14BBED1108905A6C2A8 /* HTTPInterfaceManager+Gift.m */,
+				8E8ADF01FBA6EFBE69969CFB989C88EF /* HTTPInterfaceManager+IDPhoto.h */,
+				5F7C55424724371D7622FFF692E7ECE7 /* HTTPInterfaceManager+IDPhoto.m */,
+				2D5388B2726D0BE97F8ECB0AC7658A12 /* HTTPInterfaceManager+InvitePlay.h */,
+				CBEEB91130A449982D96330F1C718771 /* HTTPInterfaceManager+InvitePlay.m */,
+				7064C0867A74FF60BFEB72C7F7E30EBC /* HTTPInterfaceManager+Market.h */,
+				34D01C3DC2D5025882546EA00D196E69 /* HTTPInterfaceManager+Market.m */,
+				19524143E5285CE1C6CE34A7CC00CE9E /* HTTPInterfaceManager+NewGifts.h */,
+				0B387146EC9ED5F545479C32B786388C /* HTTPInterfaceManager+NewGifts.m */,
+				C1DD727B3B7C1D1448A965D33C50B0F2 /* HTTPInterfaceManager+PhoneTie.h */,
+				82BA85D05C91267E7A2F7851F51BA99D /* HTTPInterfaceManager+PhoneTie.m */,
+				F589033914E4BD3C910C66D53DF94265 /* HTTPInterfaceManager+Prize.h */,
+				5E6CE4D17E59F2859A13452BA5F10376 /* HTTPInterfaceManager+Prize.m */,
+				1D4EE20B987B9EA12B490A1D17A65708 /* HTTPInterfaceManager+Qiniu.h */,
+				17AF4DB11EB20460D3AA3D0B25880C1F /* HTTPInterfaceManager+Qiniu.m */,
+				B8B570DB3D800F7F353038D56F75D3A0 /* HTTPInterfaceManager+Radar.h */,
+				5FEF0EBC421DD01BB13BF1E8F16AAB67 /* HTTPInterfaceManager+Radar.m */,
+				7E871122BCBBF7F8859387265AF7A344 /* HTTPInterfaceManager+RedPacket.h */,
+				750E6509E21C634D7CAFDAD4B0861E6F /* HTTPInterfaceManager+RedPacket.m */,
+				AEF704FA55E931D53D993E2A784F02B1 /* HTTPInterfaceManager+ShortVideo.h */,
+				9B4203DF4F9B6B918049C03A52222560 /* HTTPInterfaceManager+ShortVideo.m */,
+				78FF7059A0B84E5C1F0BCA8A891F0359 /* HTTPInterfaceManager+SMMidRequset.h */,
+				119BCB20BAA152485A7D4819EAA0E140 /* HTTPInterfaceManager+SMMidRequset.m */,
+				309932C3F421A5BB2B4DCA52DAB6524A /* HTTPInterfaceManager+SMRequest.h */,
+				4EB8B9C5ECD959C64D0F6053A1353683 /* HTTPInterfaceManager+SMRequest.m */,
+				6B2410CEDCAACCED37E7EBEEE41DF06D /* HTTPInterfaceManager+User.h */,
+				1848DFFF83F47DD959A1B4A58C5D89B4 /* HTTPInterfaceManager+User.m */,
+				946229131776A816CE2C13B167863C78 /* HTTPInterfaceManager+Video.h */,
+				44D295B8151011585BEFF4247227523A /* HTTPInterfaceManager+Video.m */,
+				A559C7FF8F882202B841662491099789 /* HTTPWorker.h */,
+				479FECBC95C265B07BCA3CBBFA9DA1CA /* HTTPWorker.m */,
+			);
+			name = Server;
+			path = XXBaseVCKit/Classes/Server;
 			sourceTree = "<group>";
 		};
 		FA49B024579819C823E34B31CDE9BDDE /* Pods-XXBaseVCKit_Example */ = {
@@ -212,15 +428,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		740A8CAB37C816475DA45AF9D0A4F24A /* Headers */ = {
+		73A5C6CA1C251866044A00CF55A3EAAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78D6E1FD24C87211C0B9F223AE4DF13 /* NSString+ExtraXX.h in Headers */,
-				2A5BA3778F93935B0B4D2DC5836D8733 /* UIAlertView+ExtraXX.h in Headers */,
-				ED645CCB969EBBE9C5F97F313E933A2F /* UIImage+ExtraXX.h in Headers */,
-				1617BC7775BF412F38D425B8EA626FE6 /* UIView+XXExtra.h in Headers */,
-				1154D182BD4AB2EC0BB19DCDE9E25D0A /* XXExtraCategory.h in Headers */,
+				870A7CF7375F1A9DC50B94965A3B38AF /* CommonSvrErrorHandler.h in Headers */,
+				CBA048F2A4A9F70687C786BD655F536A /* HTTPInterfaceAddress.h in Headers */,
+				30F1D22740B8E245F25D98FC1A0E0156 /* HTTPInterfaceManager+Account.h in Headers */,
+				4782B7D8FC50F8A52D1E26A7E9D44C48 /* HTTPInterfaceManager+Admin.h in Headers */,
+				F20C5B23C1AF83986C1B4EB9BA1E7DB3 /* HTTPInterfaceManager+AudioChat.h in Headers */,
+				7328B15C8C304D8DB424550C6E700C02 /* HTTPInterfaceManager+ChatGroup.h in Headers */,
+				25B1352A7F7191DE035F603D28F29288 /* HTTPInterfaceManager+ChatRoom.h in Headers */,
+				90AEC5707D2F748377AABA1316B573EC /* HTTPInterfaceManager+Config.h in Headers */,
+				324DB9DB5C670916095D077719C4E439 /* HTTPInterfaceManager+DidiFunction.h in Headers */,
+				A14BB84FC6CF9C00DC261128F8285BDD /* HTTPInterfaceManager+FaceView.h in Headers */,
+				E847354766E8FEF3348BB8233A3FE90B /* HTTPInterfaceManager+Feedback.h in Headers */,
+				E6CCDA9FE479C8C8E708AC24EDB8EE53 /* HTTPInterfaceManager+Feeds.h in Headers */,
+				30CCEDD79342D9C8ED4F882F932551C1 /* HTTPInterfaceManager+GameCentre.h in Headers */,
+				A8ACA13B357C6C79060CA9869238D356 /* HTTPInterfaceManager+Gift.h in Headers */,
+				EC212DF8EC19FCB85E2E5DBBF36BE2FC /* HTTPInterfaceManager+IDPhoto.h in Headers */,
+				1988313A5FAF2F4A65C925D0EC732E59 /* HTTPInterfaceManager+InvitePlay.h in Headers */,
+				107F5BAADA46DF2AB03C2D09422F7FA2 /* HTTPInterfaceManager+Market.h in Headers */,
+				E1688E9DCDD74D921D1F726332464961 /* HTTPInterfaceManager+NewGifts.h in Headers */,
+				56C8F12398F5346BFCC86E283018A502 /* HTTPInterfaceManager+PhoneTie.h in Headers */,
+				7D78846AFC5231FB857A1B03E9AC353B /* HTTPInterfaceManager+Prize.h in Headers */,
+				F56F118BD755D0B63569E97456390FD6 /* HTTPInterfaceManager+Qiniu.h in Headers */,
+				CCD431554B6161C7DD381826C0B090C7 /* HTTPInterfaceManager+Radar.h in Headers */,
+				FE462C1C164E46DE972C8A638A0C6CCC /* HTTPInterfaceManager+RedPacket.h in Headers */,
+				F69686444302D969AE5413E1356330B9 /* HTTPInterfaceManager+ShortVideo.h in Headers */,
+				F7FBA32BE95B032AA1F088938945F534 /* HTTPInterfaceManager+SMMidRequset.h in Headers */,
+				3E8F8F8FC5945DF5D1558EF063496D90 /* HTTPInterfaceManager+SMRequest.h in Headers */,
+				A0E535D19B2CA025B45B08F43C55CEDD /* HTTPInterfaceManager+User.h in Headers */,
+				08D9871E6CA4C0E888E47906663FB085 /* HTTPInterfaceManager+Video.h in Headers */,
+				FF2A3147CF91843A79E50082520AD4A0 /* HTTPInterfaceManager.h in Headers */,
+				898A79018F91EE1FA781059DEA89210D /* HTTPWorker.h in Headers */,
+				0066E882DC5D6076AA87C9485DA16FE1 /* IPModel.h in Headers */,
+				DEFDA03BDEC1CB28574BABFB7839B461 /* IPSelector.h in Headers */,
+				9396C9814BFABCD72E9B0846D730DDC6 /* NSString+ExtraXX.h in Headers */,
+				28D30B9BA6A9A4C12C774CA9D89AC50B /* UIAlertView+ExtraXX.h in Headers */,
+				E9271823C434630D2903BE6D34D2B176 /* UIImage+ExtraXX.h in Headers */,
+				C7C748441EE25D7F917FF5E73DC37734 /* UIView+XXExtra.h in Headers */,
+				B10E2BCA0D46A7A9EC80F4ED0A6AF912 /* XXExtraCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +509,11 @@
 		};
 		4AEE689236263FCF5B422B851AFBF2DB /* XXBaseVCKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC18026FA02986C5C15ACF8E6BD47F4C /* Build configuration list for PBXNativeTarget "XXBaseVCKit" */;
+			buildConfigurationList = E010EC0C76FEA8AACF54934142A342AE /* Build configuration list for PBXNativeTarget "XXBaseVCKit" */;
 			buildPhases = (
-				740A8CAB37C816475DA45AF9D0A4F24A /* Headers */,
-				69196B0D0765E2EE2C7E8F5F7EF0C316 /* Sources */,
-				A2A82208E954E6EB8BFC9253B66DF04B /* Frameworks */,
+				73A5C6CA1C251866044A00CF55A3EAAF /* Headers */,
+				0A1D125B65159211BFF84047C802FB11 /* Sources */,
+				F28174CC88A29D39A8242FCCB2D45CCF /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,16 +571,47 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69196B0D0765E2EE2C7E8F5F7EF0C316 /* Sources */ = {
+		0A1D125B65159211BFF84047C802FB11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E57BA2565EA2B515BF7D130F1E2D5F /* NSString+ExtraXX.m in Sources */,
-				7274868C533BE5303DAF09BDD864596C /* ReplaceMe.m in Sources */,
-				4E9328533F30DF34F08CDF233A2C263D /* UIAlertView+ExtraXX.m in Sources */,
-				91F826EAAFDFD9E8A50648D5C9583679 /* UIImage+ExtraXX.m in Sources */,
-				0D10A6FFD149AF91E30E9C47C0C07B91 /* UIView+XXExtra.m in Sources */,
-				3FCEB520A983EA3693C8514985A0A938 /* XXBaseVCKit-dummy.m in Sources */,
+				F52C5209A28C126F44E3154EF642A9C8 /* CommonSvrErrorHandler.m in Sources */,
+				8C491E6855F07DACF8ACC2F8574091D4 /* HTTPInterfaceAddress.m in Sources */,
+				BD2BCCC9A5000EDB8C4C4C25EEE8A330 /* HTTPInterfaceManager+Account.m in Sources */,
+				BDD736804BD00A67C8FF7018BE680E26 /* HTTPInterfaceManager+Admin.m in Sources */,
+				839A014AD23EA515A5FF2ED47EA0B6DC /* HTTPInterfaceManager+AudioChat.m in Sources */,
+				205320041384B45D21FB1238A06B85CC /* HTTPInterfaceManager+ChatGroup.m in Sources */,
+				F84BDD7FE081541CF8E83D395525994A /* HTTPInterfaceManager+ChatRoom.m in Sources */,
+				BAEBA75D75CE5FBDA7CD7C44E178500E /* HTTPInterfaceManager+Config.m in Sources */,
+				DE77F6F97C0EB755FFADC6039C13850F /* HTTPInterfaceManager+DidiFunction.m in Sources */,
+				6E48C22046DDC84FC1B6AC9517383C82 /* HTTPInterfaceManager+FaceView.m in Sources */,
+				593F47FE66805A26255E6F3EB40667D3 /* HTTPInterfaceManager+Feedback.m in Sources */,
+				90924E65E04399AC7E2A1CAE2D2C3971 /* HTTPInterfaceManager+Feeds.m in Sources */,
+				B911FDF19683444D16620F83E7C31C46 /* HTTPInterfaceManager+GameCentre.m in Sources */,
+				83CCF9945D4F4B62CDBFEAEB608C294C /* HTTPInterfaceManager+Gift.m in Sources */,
+				44DCEE24CF073908A0E773AC8053109F /* HTTPInterfaceManager+IDPhoto.m in Sources */,
+				9511D72D95AE67B7AB54D8BB6FB85C96 /* HTTPInterfaceManager+InvitePlay.m in Sources */,
+				82F13773B0FF1C417DBBC2C5D12F99DD /* HTTPInterfaceManager+Market.m in Sources */,
+				6F47B12CA887D0327AF793C37850CE26 /* HTTPInterfaceManager+NewGifts.m in Sources */,
+				22200CFE8F8F2EB516AE62B7A2665DCA /* HTTPInterfaceManager+PhoneTie.m in Sources */,
+				A8B34949BB482646DEC6356E43FD0EC8 /* HTTPInterfaceManager+Prize.m in Sources */,
+				5855444D3B4C67F65C6EB4241B989FED /* HTTPInterfaceManager+Qiniu.m in Sources */,
+				04869F53FBFD853993BAEC0C98261D05 /* HTTPInterfaceManager+Radar.m in Sources */,
+				89EA0DC8AEA24100D0706F36D87E3615 /* HTTPInterfaceManager+RedPacket.m in Sources */,
+				63A03C5AE7A962F4026303ADA2132342 /* HTTPInterfaceManager+ShortVideo.m in Sources */,
+				159878D433405943065B06CA47663C57 /* HTTPInterfaceManager+SMMidRequset.m in Sources */,
+				852780F82C42F21696357A9A148AF145 /* HTTPInterfaceManager+SMRequest.m in Sources */,
+				016EC1ADE7C0076F8D1914B6B9FD15F0 /* HTTPInterfaceManager+User.m in Sources */,
+				15C7CF27F5DF863C21BA4FE64BFF5368 /* HTTPInterfaceManager+Video.m in Sources */,
+				4897AE238C917A3A695318734CB02777 /* HTTPInterfaceManager.m in Sources */,
+				592B009111C0684D244E45A5E5461277 /* HTTPWorker.m in Sources */,
+				B1A26425E73704E6CE672C9BDEEFEB7E /* IPModel.m in Sources */,
+				F70E3DAACCD39A7BF0DAC14F0616A28E /* IPSelector.m in Sources */,
+				F8CF785B52194E9952B255FB865D9390 /* NSString+ExtraXX.m in Sources */,
+				8BB36CD026659D8FD76730870B1964AE /* UIAlertView+ExtraXX.m in Sources */,
+				B41D1244F2338912754E836930EECBF6 /* UIImage+ExtraXX.m in Sources */,
+				D329183ED4D3F09E5B6799C8076DE282 /* UIView+XXExtra.m in Sources */,
+				2825066099532C1A93079C2F8848A7F2 /* XXBaseVCKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +730,9 @@
 			};
 			name = Debug;
 		};
-		1A723172BC5354D3023BA78948D34537 /* Debug */ = {
+		3C229AFF4A2D818F4DD1CDF539B89034 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FBA64D6CCB61906BDDEA2EE50ED2B03 /* XXBaseVCKit.xcconfig */;
+			baseConfigurationReference = F6464057A79025FEBD187065DD54081F /* XXBaseVCKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -471,8 +750,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -603,9 +883,9 @@
 			};
 			name = Debug;
 		};
-		FD3036D959EC5EF1E270F8DC2F873AA2 /* Release */ = {
+		C32B09756FB499BA0FF8A971C48A59AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FBA64D6CCB61906BDDEA2EE50ED2B03 /* XXBaseVCKit.xcconfig */;
+			baseConfigurationReference = F6464057A79025FEBD187065DD54081F /* XXBaseVCKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -623,9 +903,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -648,20 +927,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E010EC0C76FEA8AACF54934142A342AE /* Build configuration list for PBXNativeTarget "XXBaseVCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32B09756FB499BA0FF8A971C48A59AC /* Debug */,
+				3C229AFF4A2D818F4DD1CDF539B89034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F7F4BBB76B5C6A1A8BC0822224B7F02A /* Build configuration list for PBXNativeTarget "Pods-XXBaseVCKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16D09E0D99DCD2B2BFBCA292D696C65A /* Debug */,
 				6B6B9EDE32B6B9ADA1FB3BE490846440 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC18026FA02986C5C15ACF8E6BD47F4C /* Build configuration list for PBXNativeTarget "XXBaseVCKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A723172BC5354D3023BA78948D34537 /* Debug */,
-				FD3036D959EC5EF1E270F8DC2F873AA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
